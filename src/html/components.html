@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Template Bootstrap - Components</title>
+    <link href="../../css/custom-theme.css" rel="stylesheet"/>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+
+<div class="shadow-sm p-3 mb-5 bg-white rounded sticky-top">
+    <h1>Components</h1>
+    <a href="index.html">Index</a>
+    <a href="components.html">Components</a>
+    <a href="main-layout.html">Main Layout</a>
+</div>
+
+<div>
+    <h2>Buttons</h2>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link">Link</button>
+</div>
+
+<div>
+    <h2>Outline Buttons</h2>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+</div>
+
+<div>
+    <h2>Button group</h2>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-secondary">Right</button>
+    </div>
+</div>
+
+<div>
+    <h2>Forms</h2>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<div>
+    <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+    <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+    <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+    <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+    <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+    <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+</div>
+
+<div>
+    <h2>Modal</h2>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h2>Progress</h2>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+    </div>
+</div>
+
+<div>
+    <h2>Table</h2>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>col 1</th>
+            <th>col 2</th>
+            <th>col 3</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>body 1</td>
+            <td>body 2</td>
+            <td>body 3</td>
+        </tr>
+        <tr>
+            <td>body 1</td>
+            <td>body 2</td>
+            <td>body 3</td>
+        </tr>
+        <tr>
+            <td>body 1</td>
+            <td>body 2</td>
+            <td>body 3</td>
+        </tr>
+        <tr>
+            <td>body 1</td>
+            <td>body 2</td>
+            <td>body 3</td>
+        </tr>
+        <tr>
+            <td>body 1</td>
+            <td>body 2</td>
+            <td>body 3</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
